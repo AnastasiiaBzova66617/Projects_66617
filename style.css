@@ -39,3 +39,11 @@ footer {
   font-weight: 400;
   color: #595959;
 }
+
+h2, h3 {
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 16px;
+  padding-bottom: 5px;
+  color: #000;
+}
