@@ -47,3 +47,21 @@ h2, h3 {
   padding-bottom: 5px;
   color: #000;
 }
+
+
+/*========= Sections: =========*/
+
+#about p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  text-align: justify;
+}
+#about .fullname {
+  font-family: 'MuseoModerno', sans-serif;
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
