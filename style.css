@@ -48,6 +48,19 @@ h2, h3 {
   color: #000;
 }
 
+h4 {
+  font-size: 16px;
+  line-height: 125%;
+  margin-bottom: 8px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+/* Decorative elems */
 #space {
   display: flex;
   white-space: nowrap;
@@ -56,6 +69,7 @@ h2, h3 {
   margin: 20px 0;
   font-size: 12px;
 }
+
 
 
 /*========= Sections: =========*/
