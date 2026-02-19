@@ -26,6 +26,10 @@ aside {
   align-items: center;
   flex-shrink: 0;
 }
+#sidebar-content {
+  padding: 40px 40px 0px 40px;
+  width: 100%;
+}
 
 #main {
   padding: 80px 40px 80px 88px;
