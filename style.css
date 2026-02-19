@@ -121,3 +121,31 @@ h5 {
   color: darkgreen;
   text-decoration: underline; 
 }
+
+
+.experience {
+  margin-bottom: 25px;
+  page-break-inside: avoid;
+}
+
+.experience p{
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+
+.experience-list {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.experience-list li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+  text-align: justify;
+  margin-bottom: 5px;
+}
