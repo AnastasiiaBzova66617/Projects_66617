@@ -149,3 +149,12 @@ h5 {
   text-align: justify;
   margin-bottom: 5px;
 }
+
+
+#education p {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
