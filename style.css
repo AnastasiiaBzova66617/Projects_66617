@@ -32,3 +32,10 @@ section {
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
   position: relative;
 }
+
+footer {
+  text-align: right;
+  padding: 20px 0;
+  font-weight: 400;
+  color: #595959;
+}
