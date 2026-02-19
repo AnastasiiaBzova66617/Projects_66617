@@ -13,6 +13,10 @@ body {
   margin: 0;
 }
 
+section {
+  margin-bottom: 50px;
+}
+
 #main {
   padding: 80px 40px 80px 88px;
   width: 100%;
