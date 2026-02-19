@@ -13,6 +13,12 @@ body {
   margin: 0;
 }
 
+#main {
+  padding: 80px 40px 80px 88px;
+  width: 100%;
+  flex: 1;
+}
+
 #wrapper {
   background: #fff;
   display: flex;
