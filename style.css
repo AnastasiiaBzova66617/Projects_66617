@@ -17,6 +17,16 @@ section {
   margin-bottom: 50px;
 }
 
+aside {
+  background: #c1e5ab;
+  padding-block: 40px;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
 #main {
   padding: 80px 40px 80px 88px;
   width: 100%;
