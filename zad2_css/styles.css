@@ -93,7 +93,9 @@ h5 {
 .job-title {
   font-weight: 700;
 }
-
+.external-link {
+  margin-right: 10px;
+}
 .green_text {
   color: #6ad146;
 }
