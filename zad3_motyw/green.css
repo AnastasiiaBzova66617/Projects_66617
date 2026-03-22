@@ -32,6 +32,7 @@ section {
   width: 310px;
   height: 400px;
   border-radius: 5px;
+  border: none;
 }
 
 aside {
@@ -57,7 +58,7 @@ aside {
 #wrapper {
   background: #fff;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row-reverse; /* RIGHT */
   margin: 0 auto;
   width: 1300px;
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
