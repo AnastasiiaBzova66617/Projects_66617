@@ -18,7 +18,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #000;
-  background-color: var(--bg-color); /* Zielone odcinek */
+  background-color: var(--bg-color);
   padding: 40px;
   margin: 0;
 }
