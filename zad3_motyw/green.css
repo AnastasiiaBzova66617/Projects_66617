@@ -1,3 +1,13 @@
+:root{
+  --bg-color:#eefde5;
+  --aside-color:#aadf8a;
+  --projects-list-color: #2b9f01;
+  --project-list-hover-color: darkgreen;
+  --text-decor-color: #2e8b57;
+  --space-color: #B1E386;
+  --contact-hover-color: #2fb400;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,7 +18,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: #000;
-  background-color: #eefde5;
+  background-color: var(--bg-color); /* Zielone odcinek */
   padding: 40px;
   margin: 0;
 }
@@ -25,7 +35,7 @@ section {
 }
 
 aside {
-  background: #aadf8a;
+  background: var(--aside-color);
   padding-block: 40px;
   width: 370px;
   display: flex;
@@ -86,7 +96,7 @@ h5 {
   display: flex;
   white-space: nowrap;
   overflow: hidden;
-  color: #B1E386;
+  color: var(--space-color);
   margin: 20px 0;
   font-size: 12px;
 }
@@ -96,8 +106,8 @@ h5 {
 .external-link {
   margin-right: 10px;
 }
-.green_text {
-  color: #2e8b57;
+.colorful_text {
+  color: var(--text-decor-color);
 }
 .separator {
   color: #000;
@@ -137,7 +147,7 @@ h5 {
 }
 
 #projects-list a {
-  color: #2b9f01;
+  color: var(--projects-list-color);
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -145,7 +155,7 @@ h5 {
   word-break: break-all;
 }
 #projects-list a:hover {
-  color: darkgreen;
+  color: var(--project-list-hover-color);
   text-decoration: underline; 
 }
 
@@ -237,7 +247,7 @@ h5 {
 }
 
 .contacts-item a:hover {
-  color: #2fb400;
+  color: var(--contact-hover-color);
 }
 
 
