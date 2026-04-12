@@ -1,0 +1,281 @@
+:root{
+  --bg-color: #fdeaea;
+  --aside-color: #e35949;
+  --projects-list-color: #e74c3c;
+  --project-list-hover-color: #922b21;
+  --text-decor-color: #c0392b;
+  --space-color: #f1948a;
+  --contact-hover-color: #ffcccc;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #000;
+  background-color: var(--bg-color);
+  padding: 40px;
+  margin: 0;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+/* profile img */
+.profile-img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  object-fit: cover;
+}
+
+aside {
+  background: var(--aside-color);
+  padding-block: 40px;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+#sidebar-content {
+  padding: 40px 40px 0px 40px;
+  width: 100%;
+}
+
+#main {
+  padding: 80px 40px 80px 88px;
+  width: 100%;
+  flex: 1;
+}
+
+#wrapper {
+  background: #fff;
+  display: flex;
+  flex-direction: row; /* LEFT */
+  margin: 0 auto;
+  width: 1300px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+footer {
+  text-align: right;
+  padding: 20px 0;
+  font-weight: 400;
+  color: #595959;
+}
+
+h2, h3 {
+  font-size: 24px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  border-left: 8px solid var(--text-decor-color);
+  padding-left: 15px;
+}
+
+h4 {
+  font-size: 16px;
+  line-height: 125%;
+  margin-bottom: 8px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+/* Decorative elems */
+#space {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  color: var(--space-color);
+  margin: 20px 0;
+  font-size: 12px;
+}
+.job-title {
+  font-weight: 700;
+}
+.external-link {
+  margin-right: 10px;
+}
+.colorful_text {
+  color: var(--text-decor-color);
+}
+.separator {
+  color: #000;
+}
+
+
+
+/*========= Sections: =========*/
+
+#about p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  text-align: justify;
+}
+#about .fullname {
+  font-family: 'MuseoModerno', sans-serif;
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+
+#projects-list {
+  padding-left: 20px;
+}
+
+#projects-list li {
+  color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+  margin-bottom: 8px;
+}
+
+#projects-list a {
+  color: var(--projects-list-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+  word-break: break-all;
+}
+#projects-list a:hover {
+  color: var(--project-list-hover-color);
+  text-decoration: underline; 
+}
+
+
+.experience {
+  margin-bottom: 25px;
+  page-break-inside: avoid;
+}
+
+.experience p{
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+
+.experience-list {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.experience-list li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+
+#education p {
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+
+
+#software ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+  max-width: 700px;
+}
+
+#software li {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
+  color: #595959;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+
+#contacts-title, .skills-title {
+  color: #161d2a;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.contacts-item {
+  display: block;
+  margin-bottom: 12px;
+  font-weight: 400;
+}
+
+.contacts-item img {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
+.contacts-item a {
+  text-decoration-line: none;
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  word-break: break-all;
+}
+
+.contacts-item a:hover {
+  color: var(--contact-hover-color);
+}
+
+
+.skills-list {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.skills-list li {
+  color: #161d2a;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 6px;
+  text-align: justify;
+}
+
+
+#agreement {
+  margin-top: 80px;
+}
+
+#agreement p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #595959;
+  text-align: justify;
+}
