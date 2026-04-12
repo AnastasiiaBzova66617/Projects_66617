@@ -27,6 +27,14 @@ section {
   margin-bottom: 50px;
 }
 
+/* functional buttons */
+#theme-toggle{
+    background-color: #329936;
+}
+#theme-toggle:hover{
+    background-color: #45a049;
+}
+
 /* profile img */
 .profile-img {
   width: 310px;
