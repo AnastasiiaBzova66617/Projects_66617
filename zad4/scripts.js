@@ -17,3 +17,13 @@ themeBtn.addEventListener('click', () => {
 // Toggle visibility of the section
 const projectsSection = document.getElementById('projects');
 const sectionBtn = document.getElementById('section-toggle');
+
+sectionBtn.addEventListener('click', () => {
+    if (projectsSection.style.display === 'none') {
+        projectsSection.style.display = 'block';
+        sectionBtn.textContent = 'Hide "Projects"';
+    } else {
+        projectsSection.style.display = 'none';
+        sectionBtn.textContent = 'Show "Projects"';
+    }
+});
