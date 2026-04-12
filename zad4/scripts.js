@@ -13,3 +13,7 @@ themeBtn.addEventListener('click', () => {
         themeStyle.classList.add('red-theme');
     }
 });
+
+// Toggle visibility of the section
+const projectsSection = document.getElementById('projects');
+const sectionBtn = document.getElementById('section-toggle');
