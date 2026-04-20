@@ -32,6 +32,7 @@ sectionBtn.addEventListener('click', () => {
 const form = document.getElementById('myForm');
 
 form.addEventListener('submit', function(e) {
+    e.preventDefault();
 
     let isValid = true;
 
