@@ -26,3 +26,8 @@ sectionBtn.addEventListener('click', () => {
         sectionBtn.textContent = 'Show "Projects"';
     }
 });
+
+
+// Zadanie 5 - Form validation
+const form = document.getElementById('myForm');
+
