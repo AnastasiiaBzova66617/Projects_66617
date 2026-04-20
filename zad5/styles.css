@@ -52,3 +52,16 @@ input, textarea {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+.error-msg {
+    color: #c0392b;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+    font-weight: 400;
+}
+.success-msg {
+    color: #27ae60;
+    margin-top: 15px;
+    font-weight: bold;
+}
