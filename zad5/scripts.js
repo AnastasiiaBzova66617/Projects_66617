@@ -32,5 +32,6 @@ sectionBtn.addEventListener('click', () => {
 const form = document.getElementById('myForm');
 
 form.addEventListener('submit', function(e) {
-   
+
+    let isValid = true;
 });
