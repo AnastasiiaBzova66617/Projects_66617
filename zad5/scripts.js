@@ -60,4 +60,5 @@ form.addEventListener('submit', function(e) {
 
     // Validate email (required, valid format)
     const email = document.getElementById('email').value.trim();
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 });
