@@ -37,4 +37,5 @@ form.addEventListener('submit', function(e) {
 
     // Validate first name (required, no digits)
     const firstName = document.getElementById('firstName').value.trim();
+    const nameRegex = /^[A-Za-zА-Яа-яЁёІіЇїЄє\s]+$/;
 });
