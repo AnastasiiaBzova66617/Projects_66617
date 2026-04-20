@@ -61,4 +61,12 @@ form.addEventListener('submit', function(e) {
     // Validate email (required, valid format)
     const email = document.getElementById('email').value.trim();
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!email) {
+        document.getElementById('emailError').textContent = 'Email is required';
+        isValid = false;
+    } else if (!emailRegex.test(email)) {
+        document.getElementById('emailError').textContent = 'Enter a valid email address';
+        isValid = false;
+    }
 });
