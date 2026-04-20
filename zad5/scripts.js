@@ -34,6 +34,10 @@ const form = document.getElementById('myForm');
 form.addEventListener('submit', function(e) {
     e.preventDefault();
 
+    // Clear previous errors
+    document.querySelectorAll('.error-msg').forEach(el => el.textContent = '');
+    document.getElementById('formSuccess').textContent = '';
+
     let isValid = true;
 
     // Validate first name (required, no digits)
