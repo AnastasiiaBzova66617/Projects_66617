@@ -31,3 +31,6 @@ sectionBtn.addEventListener('click', () => {
 // Zadanie 5 - Form validation
 const form = document.getElementById('myForm');
 
+form.addEventListener('submit', function(e) {
+   
+});
