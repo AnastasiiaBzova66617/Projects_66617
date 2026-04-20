@@ -69,4 +69,7 @@ form.addEventListener('submit', function(e) {
         document.getElementById('emailError').textContent = 'Enter a valid email address';
         isValid = false;
     }
+
+    // Validate message (required)
+    const message = document.getElementById('message').value.trim();
 });
