@@ -49,4 +49,12 @@ form.addEventListener('submit', function(e) {
 
     // Validate last name (required, no digits)
     const lastName = document.getElementById('lastName').value.trim();
+
+    if (!lastName) {
+        document.getElementById('lastNameError').textContent = 'Last name is required';
+        isValid = false;
+    } else if (!nameRegex.test(lastName)) {
+        document.getElementById('lastNameError').textContent = 'Last name cannot contain numbers';
+        isValid = false;
+    }
 });
