@@ -72,4 +72,9 @@ form.addEventListener('submit', function(e) {
 
     // Validate message (required)
     const message = document.getElementById('message').value.trim();
+    
+    if (!message) {
+        document.getElementById('messageError').textContent = 'Message cannot be empty';
+        isValid = false;
+    }
 });
