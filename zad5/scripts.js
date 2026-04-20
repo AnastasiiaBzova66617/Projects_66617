@@ -46,4 +46,7 @@ form.addEventListener('submit', function(e) {
         document.getElementById('firstNameError').textContent = 'First name cannot contain numbers';
         isValid = false;
     }
+
+    // Validate last name (required, no digits)
+    const lastName = document.getElementById('lastName').value.trim();
 });
