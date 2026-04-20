@@ -34,4 +34,7 @@ const form = document.getElementById('myForm');
 form.addEventListener('submit', function(e) {
 
     let isValid = true;
+
+    // Validate first name (required, no digits)
+    const firstName = document.getElementById('firstName').value.trim();
 });
