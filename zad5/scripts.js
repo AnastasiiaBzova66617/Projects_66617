@@ -57,4 +57,7 @@ form.addEventListener('submit', function(e) {
         document.getElementById('lastNameError').textContent = 'Last name cannot contain numbers';
         isValid = false;
     }
+
+    // Validate email (required, valid format)
+    const email = document.getElementById('email').value.trim();
 });
