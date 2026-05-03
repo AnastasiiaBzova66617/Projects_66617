@@ -138,6 +138,11 @@ const goalInput = document.getElementById('goalInput');
 const addGoalBtn = document.getElementById('addGoalBtn');
 const goalsList = document.getElementById('goalsList');
 
+// Function to load data from LocalStorage
+function displayGoals() {
+    const savedGoals = JSON.parse(localStorage.getItem('userGoals')) || [];
+    goalsList.innerHTML = ''; // Clear list 
+}
 
 // Function to add a new item
 addGoalBtn.addEventListener('click', () => {
