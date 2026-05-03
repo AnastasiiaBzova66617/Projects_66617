@@ -14,6 +14,20 @@
     "SQL | NoSQL – Basic"
   ],
   "projects": [
-    
+    {
+      "name": "AnPurRecode (PortfolioSite)",
+      "link": "https://anpurrecode.vercel.app/",
+      "tech": "HTML5 + CSS3, JavaScript, PHP, MySQL (DB)"
+    },
+    {
+      "name": "ChatBottie",
+      "link": "https://github.com/NasTiaFox30/ChatBottie",
+      "tech": "HTML5 + CSS3, JavaScript, Python (FastAPI), Qdrant (DB), Google Gemini"
+    },
+    {
+      "name": "CV-Flow",
+      "link": "https://github.com/NasTiaFox30/CV-Flow",
+      "tech": "HTML5 + Tailwind CSS, JavaScript, REACT.js + Vite"
+    }
   ]
 }
