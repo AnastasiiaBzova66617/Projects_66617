@@ -93,3 +93,15 @@ input, textarea {
     border-radius: 4px;
     list-style: none;
 }
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.delete-btn:hover {
+    background-color: #cc0000;
+}
