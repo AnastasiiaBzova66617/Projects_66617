@@ -137,3 +137,9 @@ window.addEventListener('DOMContentLoaded', loadData);
 const goalInput = document.getElementById('goalInput');
 const addGoalBtn = document.getElementById('addGoalBtn');
 const goalsList = document.getElementById('goalsList');
+
+
+// Function to add a new item
+addGoalBtn.addEventListener('click', () => {
+    const newGoal = goalInput.value.trim();
+});
