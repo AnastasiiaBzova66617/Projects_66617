@@ -87,8 +87,7 @@ form.addEventListener('submit', async function(e) {
 
     // IF IT'S VALID - SHOW SUCCESS MESSAGE
     if (isValid) {
-        document.getElementById('formSuccess').textContent = 'Form has been validated successfully!';
-        form.reset();
+        
     }
 });
 
