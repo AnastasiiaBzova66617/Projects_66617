@@ -95,7 +95,12 @@ form.addEventListener('submit', async function(e) {
             timestamp: new Date().toISOString()
         };
 
-       
+        try {
+           
+        } catch (error) {
+            console.error('Backend Error:', error);
+            document.getElementById('formSuccess').textContent = 'Server error. Try again later.';
+        }
     }
 });
 
