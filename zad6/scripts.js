@@ -95,7 +95,10 @@ form.addEventListener('submit', function(e) {
 async function loadData() {
     try {
         const response = await fetch('./data.json'); // using fetch()
-        
+        if (!response.ok) {
+            throw new Error('Error loading JSON');
+        }
+        const data = await response.json();
 
        
     } catch (error) {
