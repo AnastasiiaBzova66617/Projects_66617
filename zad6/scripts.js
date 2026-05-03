@@ -93,7 +93,14 @@ form.addEventListener('submit', function(e) {
 
 // Zadanie 6 - Dynamic loading from JSON
 async function loadData() {
-    
+    try {
+        const response = await fetch('./data.json'); // using fetch()
+        
+
+       
+    } catch (error) {
+        console.error("Error:", error);
+    }
 }
 
 // Launch data loading when the page is loaded
