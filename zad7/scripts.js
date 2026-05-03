@@ -142,6 +142,16 @@ const goalsList = document.getElementById('goalsList');
 function displayGoals() {
     const savedGoals = JSON.parse(localStorage.getItem('userGoals')) || [];
     goalsList.innerHTML = ''; // Clear list 
+    
+    savedGoals.forEach((goal, index) => {
+        const li = document.createElement('li');
+        li.className = 'goal-item';
+        li.innerHTML = `
+            <span>${goal}</span>
+            <button onclick="deleteGoal(${index})" class="delete-btn">Delete</button>
+        `;
+        goalsList.appendChild(li);
+    });
 }
 
 // Function to add a new item
