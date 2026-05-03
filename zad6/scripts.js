@@ -102,13 +102,13 @@ async function loadData() {
 
         // (Tech Skills)
         const skillsContainer = document.getElementById('tech-skills-list');
-       
+        skillsContainer.innerHTML = ''; // clear container
+        
 
         // (Projects)
         const projectsContainer = document.getElementById('projects-list');
-       
-
-       
+        projectsContainer.innerHTML = ''; // clear container
+        
     } catch (error) {
         console.error("Error:", error);
     }
