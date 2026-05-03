@@ -105,7 +105,12 @@ form.addEventListener('submit', async function(e) {
                 }
             });
 
-            
+            if (response.ok) {
+                document.getElementById('formSuccess').textContent = 'Message sent to server successfully!';
+                form.reset();
+            } else {
+                throw new Error('Failed to send data');
+            }
         } catch (error) {
             console.error('Backend Error:', error);
             document.getElementById('formSuccess').textContent = 'Server error. Try again later.';
