@@ -131,3 +131,9 @@ async function loadData() {
 
 // Launch data loading when the page is loaded
 window.addEventListener('DOMContentLoaded', loadData);
+
+
+// Task 7: Local Storage
+const goalInput = document.getElementById('goalInput');
+const addGoalBtn = document.getElementById('addGoalBtn');
+const goalsList = document.getElementById('goalsList');
