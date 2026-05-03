@@ -87,7 +87,15 @@ form.addEventListener('submit', async function(e) {
 
     // IF IT'S VALID - SHOW SUCCESS MESSAGE
     if (isValid) {
-        
+        const formData = {
+            firstName: firstName,
+            lastName: lastName,
+            email: email,
+            message: message,
+            timestamp: new Date().toISOString()
+        };
+
+       
     }
 });
 
