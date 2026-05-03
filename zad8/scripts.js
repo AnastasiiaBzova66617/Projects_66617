@@ -27,6 +27,8 @@ sectionBtn.addEventListener('click', () => {
     }
 });
 
+// Zadanie 8: Backend
+const firebaseURL = 'https://cv-backend-66617-default-rtdb.firebaseio.com/messages.json';
 
 // Zadanie 5 - Form validation
 const form = document.getElementById('myForm');
