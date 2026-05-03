@@ -22,7 +22,7 @@
     {
       "name": "ChatBottie",
       "link": "https://github.com/NasTiaFox30/ChatBottie",
-      "tech": "HTML5 + CSS3, JavaScript, Python (FastAPI), Qdrant (DB), Google Gemini"
+      "tech": "HTML5 + CSS3, JavaScript, Python (FastAPI), Qdrant (DB), Cohere (Embedings), Google Gemini (LLM)"
     },
     {
       "name": "CV-Flow",
