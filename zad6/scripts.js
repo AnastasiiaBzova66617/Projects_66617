@@ -89,3 +89,9 @@ form.addEventListener('submit', function(e) {
         form.reset();
     }
 });
+
+
+// Zadanie 6 - Dynamic loading from JSON
+async function loadData() {
+    
+}
