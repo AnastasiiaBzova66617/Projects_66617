@@ -142,4 +142,10 @@ const goalsList = document.getElementById('goalsList');
 // Function to add a new item
 addGoalBtn.addEventListener('click', () => {
     const newGoal = goalInput.value.trim();
+    if (newGoal) {
+        const savedGoals = JSON.parse(localStorage.getItem('userGoals')) || [];
+        savedGoals.push(newGoal);
+        localStorage.setItem('userGoals', JSON.stringify(savedGoals)); // Save
+        goalInput.value = ''; // Clear input
+    }
 });
