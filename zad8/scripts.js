@@ -96,7 +96,16 @@ form.addEventListener('submit', async function(e) {
         };
 
         try {
-           
+            // POST
+            const response = await fetch(firebaseURL, {
+                method: 'POST',
+                body: JSON.stringify(formData),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            
         } catch (error) {
             console.error('Backend Error:', error);
             document.getElementById('formSuccess').textContent = 'Server error. Try again later.';
