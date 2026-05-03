@@ -103,7 +103,11 @@ async function loadData() {
         // (Tech Skills)
         const skillsContainer = document.getElementById('tech-skills-list');
         skillsContainer.innerHTML = ''; // clear container
-        
+        data.techSkills.forEach(skill => {
+            const li = document.createElement('li');
+            li.innerHTML = `<strong>${skill}</strong>`;
+            skillsContainer.appendChild(li);
+        });
 
         // (Projects)
         const projectsContainer = document.getElementById('projects-list');
