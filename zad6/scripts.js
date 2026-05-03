@@ -112,6 +112,17 @@ async function loadData() {
         // (Projects)
         const projectsContainer = document.getElementById('projects-list');
         projectsContainer.innerHTML = ''; // clear container
+        data.projects.forEach(project => {
+            const li = document.createElement('li');
+            li.innerHTML = `
+                <a href="${project.link}" target="_blank" rel="noopener noreferrer">
+                    <strong>${project.name}</strong>
+                </a>
+                [ ${project.tech} ]
+            `;
+            projectsContainer.appendChild(li);
+        });
+
         
     } catch (error) {
         console.error("Error:", error);
