@@ -100,6 +100,14 @@ async function loadData() {
         }
         const data = await response.json();
 
+        // (Tech Skills)
+        const skillsContainer = document.getElementById('tech-skills-list');
+       
+
+        // (Projects)
+        const projectsContainer = document.getElementById('projects-list');
+       
+
        
     } catch (error) {
         console.error("Error:", error);
