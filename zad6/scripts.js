@@ -123,7 +123,7 @@ async function loadData() {
             projectsContainer.appendChild(li);
         });
 
-        
+        console.log("Data loaded successfully from JSON - (Projects and Tech Skills)");
     } catch (error) {
         console.error("Error:", error);
     }
