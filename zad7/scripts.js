@@ -165,3 +165,7 @@ addGoalBtn.addEventListener('click', () => {
         displayGoals(); // Update view
     }
 });
+
+
+// Load list on page start
+document.addEventListener('DOMContentLoaded', displayGoals);
