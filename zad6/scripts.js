@@ -95,3 +95,6 @@ form.addEventListener('submit', function(e) {
 async function loadData() {
     
 }
+
+// Launch data loading when the page is loaded
+window.addEventListener('DOMContentLoaded', loadData);
