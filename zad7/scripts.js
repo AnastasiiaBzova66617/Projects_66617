@@ -162,5 +162,6 @@ addGoalBtn.addEventListener('click', () => {
         savedGoals.push(newGoal);
         localStorage.setItem('userGoals', JSON.stringify(savedGoals)); // Save
         goalInput.value = ''; // Clear input
+        displayGoals(); // Update view
     }
 });
