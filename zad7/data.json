@@ -1,0 +1,58 @@
+{
+  "techSkills": [
+    "HTML5 + CSS3 – Advanced",
+    "JavaScript – Advanced",
+    "React.js – Intermediate",
+    "Express – Basic",
+    "FastAPI – Basic",
+    "C# + .NET Core – Intermediate",
+    "Python + Libraries – Basic",
+    "PHP – Intermediate",
+    "Java – Intermediate",
+    "C++ – Basic",
+    "JSON – Basic",
+    "SQL | NoSQL – Basic"
+  ],
+  "projects": [
+    {
+      "name": "AnPurRecode (PortfolioSite)",
+      "link": "https://anpurrecode.vercel.app/",
+      "tech": "HTML5 + CSS3, JavaScript, PHP, MySQL (DB)"
+    },
+    {
+      "name": "ChatBottie",
+      "link": "https://github.com/NasTiaFox30/ChatBottie",
+      "tech": "HTML5 + CSS3, JavaScript, Python (FastAPI), Qdrant (DB), Cohere (Embedings), Google Gemini (LLM)"
+    },
+    {
+      "name": "CV-Flow",
+      "link": "https://github.com/NasTiaFox30/CV-Flow",
+      "tech": "HTML5 + Tailwind CSS, JavaScript, REACT.js + Vite"
+    },
+    {
+      "name": "Task-Manager",
+      "link": "https://github.com/NasTiaFox30/projekt-CRUD-Anastasiia-Bzova",
+      "tech": "HTML5 + CSS3, JavaScript, Node.js + Express, REACT.js + Vite, PostgreSQL (DB), JWT tokens"
+    },
+    {
+      "name": "Lost-on-Earth",
+      "link": "https://github.com/NasTiaFox30/Lost-on-Earth",
+      "tech": "HTML5 + CSS3, JavaScript, GoogleMaps (Street View & Maps API)"
+    },
+    {
+      "name": "One-ingredient-chef",
+      "link": "https://github.com/NasTiaFox30/One-ingredient-chef",
+      "tech": "HTML5 + Bootstrap5, JavaScript, REACT.js + Vite, Firebase (DB)"
+    },
+    {
+      "name": "Google Colab Projects (analysis)",
+      "link": "https://github.com/NasTiaFox30/ColabProjects",
+      "tech": "Python (Google Colab)"
+    },
+    {
+      "name": "Tinkercad Projects",
+      "link": "https://github.com/NasTiaFox30/Tinkercad-Projects",
+      "tech": "C++ (Tinkercad)"
+    }
+  ]
+}
