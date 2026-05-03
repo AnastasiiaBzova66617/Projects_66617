@@ -166,6 +166,13 @@ addGoalBtn.addEventListener('click', () => {
     }
 });
 
+// Function to delete
+window.deleteGoal = function(index) {
+    const savedGoals = JSON.parse(localStorage.getItem('userGoals')) || [];
+    savedGoals.splice(index, 1); // Remove item by index
+    localStorage.setItem('userGoals', JSON.stringify(savedGoals));
+    displayGoals();
+};
 
 // Load list on page start
 document.addEventListener('DOMContentLoaded', displayGoals);
