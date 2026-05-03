@@ -33,7 +33,7 @@ const firebaseURL = 'https://cv-backend-66617-default-rtdb.firebaseio.com/messag
 // Zadanie 5 - Form validation
 const form = document.getElementById('myForm');
 
-form.addEventListener('submit', function(e) {
+form.addEventListener('submit', async function(e) {
     e.preventDefault();
 
     // Clear previous errors
